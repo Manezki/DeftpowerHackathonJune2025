@@ -1,0 +1,6 @@
+@DeftpowerHackathonJune2025_HostAddress = http://localhost:5247
+
+GET {{DeftpowerHackathonJune2025_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
