@@ -8,6 +8,12 @@
 
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="8.0.17" />
+    <PackageReference Include="Microsoft.Orleans.Client" Version="9.0.1" />
+    <PackageReference Include="Microsoft.Orleans.Core" Version="9.1.2" />
+    <PackageReference Include="Microsoft.Orleans.Core.Abstractions" Version="9.1.2" />
+    <PackageReference Include="Microsoft.Orleans.Sdk" Version="9.1.2" />
+    <PackageReference Include="Microsoft.Orleans.Server" Version="9.1.2" />
+    <PackageReference Include="OrleansDashboard" Version="8.2.0" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
   </ItemGroup>
 
