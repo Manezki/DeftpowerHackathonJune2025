@@ -18,14 +18,14 @@ app.UseHttpsRedirection();
 
 app.MapGet("/startCommand", () =>
 {
-    return null;
+    return "";
 })
 .WithName("StartCommand")
 .WithOpenApi();
 
 app.MapGet("/stopCommand", () =>
 {
-    return null;
+    return "";
 })
 .WithName("StopCommand")
 .WithOpenApi();
